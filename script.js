@@ -6,6 +6,7 @@ function startTime() {
   let h = today.getHours();
   let m = today.getMinutes();
   let s = today.getSeconds();
+  mo = checkTime(mo);
   e = checkMeridiem(h);
   h = checkHour(h);
   m = checkTime(m);
