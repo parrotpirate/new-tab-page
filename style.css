@@ -1,0 +1,27 @@
+body {
+  color: CanvasText;
+  background-color: Canvas;
+
+  color-scheme: light dark;
+}
+
+#frame {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  gap: 1rem;
+}
+
+#time,
+#date {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+}
